@@ -7,7 +7,7 @@ const Hero = () => {
             {/* Hero Image */}
             <div className="absolute inset-0">
                 <img
-                    src="/src/assets/hero-image.jpg"
+                    src="/src/assets/hero.png"
                     alt="Barbershop Team"
                     className="w-full h-full object-cover opacity-50"
                 />

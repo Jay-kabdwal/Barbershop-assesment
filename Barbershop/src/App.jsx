@@ -5,6 +5,7 @@ import Services from './components/services';
 import About from './components/about';
 import Contact from './components/contact';
 import CTA from './components/cta';
+import Footer from './components/footer';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
             } />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
