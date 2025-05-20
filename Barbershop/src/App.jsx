@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Services from './components/services';
 import About from './components/about';
 import Contact from './components/contact';
+import CTA from './components/cta';
 
 const App = () => {
   return (
@@ -18,11 +19,17 @@ const App = () => {
                 <Services />
                 <About />
                 <Contact />
+                <CTA />
               </>
             } />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={
+              <>
+                <Contact />
+                <CTA />
+              </>
+            } />
           </Routes>
         </main>
       </div>
