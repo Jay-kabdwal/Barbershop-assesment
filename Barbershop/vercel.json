@@ -13,18 +13,19 @@
     {
       "src": "/assets/(.*)",
       "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Content-Type": "application/javascript"
+      }
+    },
+    {
+      "src": "/(.*.js)",
+      "headers": {
+        "Content-Type": "application/javascript"
       }
     },
     {
       "src": "/(.*)",
       "dest": "/index.html"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/appointment",
-      "destination": "/index.html"
     }
   ]
 }
