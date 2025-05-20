@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { StarIcon, MapPinIcon, PhoneIcon, ClockIcon } from '@heroicons/react/24/solid';
+import heroImg from '../assets/hero.png';
 
 const Hero = () => {
     return (
@@ -71,7 +72,7 @@ const Hero = () => {
                     {/* Right side: Team Image */}
                     <div className="flex justify-center md:justify-end">
                         <img
-                            src="/src/assets/hero.png"
+                            src={heroImg}
                             alt="Barbershop Team"
                             className="rounded-lg shadow-lg max-w-full md:max-w-md"
                         />
