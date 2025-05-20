@@ -6,7 +6,7 @@ const Header = () => {
         <header className="bg-black text-white py-4 px-6 fixed w-full top-0 z-50">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 <Link to="/" className="flex items-center">
-                    <img src="/src/assets/logo.png" alt="PMG Logo" className="h-12" />
+                    <h1 className="text-4xl text-red-500 font-bold">PMC</h1>
                 </Link>
 
                 <nav className="hidden md:flex items-center space-x-8">
