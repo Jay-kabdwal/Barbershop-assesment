@@ -19,4 +19,4 @@ This project is built using React and Vite, providing a modern and responsive de
 - **Dynamic Content**: Displays services, contact information, and business details dynamically.
 
 ## Deployed link
-https://barbershop-assesment-5831.vercel.app/
+https://barbershop-assesment.vercel.app/
